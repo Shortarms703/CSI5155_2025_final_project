@@ -2,6 +2,7 @@
 
 This project explores the reconstruction of vector geometry from raster images using a deep learning approach. We developed a multi-stage pipeline consisting of a Convolutional Neural Network (CNN) classifier to determine the number of polygon vertices, followed by class-specific regression CNNs to predict the vertex coordinates of the polygon. To enable end-to-end training without ground-truth coordinate data, we utilized differentiable rasterization to compute image-based loss. We trained and evaluated this system on our own synthetic dataset of 4,800 images of convex polygons. We compared our approach against a baseline algorithm using Harris Corner Detection. Our results indicate that while the neural networks successfully learned to approximate the shapes, the algorithmic baseline outperformed the deep learning models in both classification accuracy and geometric precision.
 
+The dataset for this project is available by downloading the `data.zip` file. 
 
 ## Commands to submit jobs with new hyperparameter tuning scripts:
 
