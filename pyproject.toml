@@ -1,0 +1,26 @@
+[project]
+name = "csi5155-project"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.10"
+dependencies = [
+    "cairosvg>=2.8.2",
+    "cmake>=4.2.0",
+    "cssutils>=2.11.1",
+    "ffmpeg>=1.4",
+    "keras>=3.12.0",
+    "matplotlib>=3.10.7",
+    "notebook>=7.4.7",
+    "numba>=0.62.1",
+    "scikit-image>=0.25.2",
+    "scikit-learn>=1.7.2",
+    "setuptools>=80.9.0",
+    "shapely>=2.1.2",
+    "svgpathtools>=1.7.1",
+    "svgwrite>=1.4.3",
+    "torch>=2.9.1",
+    "torch-tools>=0.1.5",
+    "torchvision>=0.24.1",
+    "visdom>=0.2.4",
+    "wheel>=0.45.1",
+]
