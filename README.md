@@ -122,7 +122,7 @@ Adjust the --time, --mem, and --cpus-per-task based on your needs and experience
 
 ## AI Usage Acknowledgment
 	
-	Per the course policy, we acknowledge the use of ChatGPT~\cite{chatgpt}, Claude~\cite{claude}, and Gemini~\cite{gemini} in some portions of this project. These tools were used for help with coding on tasks that are not the focus of the course: create visualizations, processing images for training the model, managing the pipeline, reading and writing files, dataset inspection and debugging errors. The deep learning implementation and initial drafts of the report were produced by the authors.
+Per the course policy, we acknowledge the use of ChatGPT, Claude, and Gemini in some portions of this project. These tools were used for help with coding on tasks that are not the focus of the course: create visualizations, processing images for training the model, managing the pipeline, reading and writing files, dataset inspection and debugging errors. The deep learning implementation and initial drafts of the report were produced by the authors.
 
 ### Visualization
 - `evaluation/evaluate_classifier.py` - Plotting confusion matrices and metrics comparisons
