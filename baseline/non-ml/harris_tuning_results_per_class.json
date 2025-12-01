@@ -1,0 +1,866 @@
+{
+  "polygon_3": {
+    "best_params": {
+      "block_size": 2,
+      "ksize": 5,
+      "k": 0.02,
+      "threshold_factor": 0.02,
+      "min_distance": 10.0,
+      "blur_size": 3,
+      "use_morph": false,
+      "use_dilate": false
+    },
+    "tuning_metrics": {
+      "vertex_accuracy": 0.955,
+      "avg_hausdorff": 4.729220587734103,
+      "vertex_correct": 955,
+      "total": 1000
+    },
+    "full_dataset_metrics": {
+      "vertex_accuracy": 0.955,
+      "avg_hausdorff": 4.729220587734103,
+      "vertex_correct": 955,
+      "total": 1000
+    },
+    "top_10_configurations": [
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.02,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.955,
+          "avg_hausdorff": 4.729220587734103,
+          "vertex_correct": 955,
+          "total": 1000
+        },
+        "score": 0.9077077941226589
+      },
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.02,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.959,
+          "avg_hausdorff": 5.417321084535656,
+          "vertex_correct": 959,
+          "total": 1000
+        },
+        "score": 0.9048267891546434
+      },
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.957,
+          "avg_hausdorff": 5.394380367086051,
+          "vertex_correct": 957,
+          "total": 1000
+        },
+        "score": 0.9030561963291395
+      },
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.956,
+          "avg_hausdorff": 5.3341786771393584,
+          "vertex_correct": 956,
+          "total": 1000
+        },
+        "score": 0.9026582132286064
+      },
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.949,
+          "avg_hausdorff": 4.752232187424091,
+          "vertex_correct": 949,
+          "total": 1000
+        },
+        "score": 0.9014776781257591
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.05,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.942,
+          "avg_hausdorff": 4.28010438344488,
+          "vertex_correct": 942,
+          "total": 1000
+        },
+        "score": 0.8991989561655511
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.05,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.948,
+          "avg_hausdorff": 4.924316802731482,
+          "vertex_correct": 948,
+          "total": 1000
+        },
+        "score": 0.8987568319726851
+      },
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.942,
+          "avg_hausdorff": 4.58995029971564,
+          "vertex_correct": 942,
+          "total": 1000
+        },
+        "score": 0.8961004970028436
+      },
+      {
+        "params": {
+          "block_size": 2,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.02,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": true,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.965,
+          "avg_hausdorff": 6.928699660778934,
+          "vertex_correct": 965,
+          "total": 1000
+        },
+        "score": 0.8957130033922106
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.05,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.945,
+          "avg_hausdorff": 4.984594231989873,
+          "vertex_correct": 945,
+          "total": 1000
+        },
+        "score": 0.8951540576801013
+      }
+    ]
+  },
+  "polygon_4": {
+    "best_params": {
+      "block_size": 3,
+      "ksize": 5,
+      "k": 0.02,
+      "threshold_factor": 0.05,
+      "min_distance": 5.0,
+      "blur_size": 3,
+      "use_morph": false,
+      "use_dilate": false
+    },
+    "tuning_metrics": {
+      "vertex_accuracy": 0.812,
+      "avg_hausdorff": 3.569644745652984,
+      "vertex_correct": 812,
+      "total": 1000
+    },
+    "full_dataset_metrics": {
+      "vertex_accuracy": 0.812,
+      "avg_hausdorff": 3.569644745652984,
+      "vertex_correct": 812,
+      "total": 1000
+    },
+    "top_10_configurations": [
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.812,
+          "avg_hausdorff": 3.569644745652984,
+          "vertex_correct": 812,
+          "total": 1000
+        },
+        "score": 0.7763035525434702
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.01,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.798,
+          "avg_hausdorff": 3.4301031285773114,
+          "vertex_correct": 798,
+          "total": 1000
+        },
+        "score": 0.7636989687142269
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.02,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.798,
+          "avg_hausdorff": 3.4736200801730273,
+          "vertex_correct": 798,
+          "total": 1000
+        },
+        "score": 0.7632637991982698
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.04,
+          "threshold_factor": 0.05,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.792,
+          "avg_hausdorff": 3.522650124011206,
+          "vertex_correct": 792,
+          "total": 1000
+        },
+        "score": 0.756773498759888
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.05,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.789,
+          "avg_hausdorff": 3.4993697175401395,
+          "vertex_correct": 789,
+          "total": 1000
+        },
+        "score": 0.7540063028245987
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.792,
+          "avg_hausdorff": 3.872434162857703,
+          "vertex_correct": 792,
+          "total": 1000
+        },
+        "score": 0.753275658371423
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.04,
+          "threshold_factor": 0.05,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.787,
+          "avg_hausdorff": 4.397305277439361,
+          "vertex_correct": 787,
+          "total": 1000
+        },
+        "score": 0.7430269472256065
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.04,
+          "threshold_factor": 0.05,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": true,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.781,
+          "avg_hausdorff": 3.8505212942950817,
+          "vertex_correct": 781,
+          "total": 1000
+        },
+        "score": 0.7424947870570492
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": true,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.783,
+          "avg_hausdorff": 4.138858779034605,
+          "vertex_correct": 783,
+          "total": 1000
+        },
+        "score": 0.741611412209654
+      },
+      {
+        "params": {
+          "block_size": 3,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.005,
+          "min_distance": 5.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.774,
+          "avg_hausdorff": 3.475280782385621,
+          "vertex_correct": 774,
+          "total": 1000
+        },
+        "score": 0.7392471921761438
+      }
+    ]
+  },
+  "polygon_5": {
+    "best_params": {
+      "block_size": 5,
+      "ksize": 3,
+      "k": 0.06,
+      "threshold_factor": 0.01,
+      "min_distance": 7.0,
+      "blur_size": 3,
+      "use_morph": false,
+      "use_dilate": false
+    },
+    "tuning_metrics": {
+      "vertex_accuracy": 0.637,
+      "avg_hausdorff": 3.7518837732601624,
+      "vertex_correct": 637,
+      "total": 1000
+    },
+    "full_dataset_metrics": {
+      "vertex_accuracy": 0.637,
+      "avg_hausdorff": 3.7518837732601624,
+      "vertex_correct": 637,
+      "total": 1000
+    },
+    "top_10_configurations": [
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.637,
+          "avg_hausdorff": 3.7518837732601624,
+          "vertex_correct": 637,
+          "total": 1000
+        },
+        "score": 0.5994811622673983
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.005,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.634,
+          "avg_hausdorff": 3.7203904897664177,
+          "vertex_correct": 634,
+          "total": 1000
+        },
+        "score": 0.5967960951023359
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.04,
+          "threshold_factor": 0.05,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.608,
+          "avg_hausdorff": 3.723033771199211,
+          "vertex_correct": 608,
+          "total": 1000
+        },
+        "score": 0.5707696622880079
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.005,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.608,
+          "avg_hausdorff": 3.911087596445691,
+          "vertex_correct": 608,
+          "total": 1000
+        },
+        "score": 0.568889124035543
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.02,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.614,
+          "avg_hausdorff": 4.715671947797093,
+          "vertex_correct": 614,
+          "total": 1000
+        },
+        "score": 0.566843280522029
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 3,
+          "k": 0.06,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.597,
+          "avg_hausdorff": 3.9492324313584772,
+          "vertex_correct": 597,
+          "total": 1000
+        },
+        "score": 0.5575076756864152
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 5,
+          "k": 0.02,
+          "threshold_factor": 0.05,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.592,
+          "avg_hausdorff": 3.8950747818620504,
+          "vertex_correct": 592,
+          "total": 1000
+        },
+        "score": 0.5530492521813795
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.02,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.601,
+          "avg_hausdorff": 4.837207782852989,
+          "vertex_correct": 601,
+          "total": 1000
+        },
+        "score": 0.55262792217147
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.01,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": true,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.6,
+          "avg_hausdorff": 4.775946344868122,
+          "vertex_correct": 600,
+          "total": 1000
+        },
+        "score": 0.5522405365513188
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.02,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.591,
+          "avg_hausdorff": 3.930153578158645,
+          "vertex_correct": 591,
+          "total": 1000
+        },
+        "score": 0.5516984642184135
+      }
+    ]
+  },
+  "polygon_6": {
+    "best_params": {
+      "block_size": 5,
+      "ksize": 7,
+      "k": 0.02,
+      "threshold_factor": 0.01,
+      "min_distance": 7.0,
+      "blur_size": 3,
+      "use_morph": true,
+      "use_dilate": false
+    },
+    "tuning_metrics": {
+      "vertex_accuracy": 0.487,
+      "avg_hausdorff": 4.193759908233238,
+      "vertex_correct": 487,
+      "total": 1000
+    },
+    "full_dataset_metrics": {
+      "vertex_accuracy": 0.487,
+      "avg_hausdorff": 4.193759908233238,
+      "vertex_correct": 487,
+      "total": 1000
+    },
+    "top_10_configurations": [
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": true,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.487,
+          "avg_hausdorff": 4.193759908233238,
+          "vertex_correct": 487,
+          "total": 1000
+        },
+        "score": 0.4450624009176676
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.005,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.492,
+          "avg_hausdorff": 5.036242801731931,
+          "vertex_correct": 492,
+          "total": 1000
+        },
+        "score": 0.44163757198268067
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.005,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.491,
+          "avg_hausdorff": 5.142188216305675,
+          "vertex_correct": 491,
+          "total": 1000
+        },
+        "score": 0.4395781178369432
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.005,
+          "min_distance": 10.0,
+          "blur_size": 3,
+          "use_morph": true,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.489,
+          "avg_hausdorff": 5.156402171507427,
+          "vertex_correct": 489,
+          "total": 1000
+        },
+        "score": 0.4374359782849257
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 3,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.477,
+          "avg_hausdorff": 4.040210999887323,
+          "vertex_correct": 477,
+          "total": 1000
+        },
+        "score": 0.43659789000112675
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.474,
+          "avg_hausdorff": 4.164086319394953,
+          "vertex_correct": 474,
+          "total": 1000
+        },
+        "score": 0.4323591368060504
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 5,
+          "use_morph": true,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.472,
+          "avg_hausdorff": 4.28309979224382,
+          "vertex_correct": 472,
+          "total": 1000
+        },
+        "score": 0.42916900207756176
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.005,
+          "min_distance": 10.0,
+          "blur_size": 5,
+          "use_morph": true,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.479,
+          "avg_hausdorff": 5.2369388890321975,
+          "vertex_correct": 479,
+          "total": 1000
+        },
+        "score": 0.426630611109678
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.01,
+          "min_distance": 7.0,
+          "blur_size": 7,
+          "use_morph": false,
+          "use_dilate": false
+        },
+        "metrics": {
+          "vertex_accuracy": 0.465,
+          "avg_hausdorff": 4.368426934986228,
+          "vertex_correct": 465,
+          "total": 1000
+        },
+        "score": 0.4213157306501377
+      },
+      {
+        "params": {
+          "block_size": 5,
+          "ksize": 7,
+          "k": 0.02,
+          "threshold_factor": 0.005,
+          "min_distance": 10.0,
+          "blur_size": 7,
+          "use_morph": false,
+          "use_dilate": true
+        },
+        "metrics": {
+          "vertex_accuracy": 0.466,
+          "avg_hausdorff": 5.308523075930117,
+          "vertex_correct": 466,
+          "total": 1000
+        },
+        "score": 0.41291476924069886
+      }
+    ]
+  }
+}

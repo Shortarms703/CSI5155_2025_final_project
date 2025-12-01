@@ -1,0 +1,14 @@
+{
+  "project_info": {
+    "source_folder": "64x64/raster",
+    "output_folder": "clusterization",
+    "reduction_percent": 0.1,
+    "total_polygon_types": 4
+  },
+  "polygon_files": [
+    "polygon_3_clustering.json",
+    "polygon_4_clustering.json",
+    "polygon_5_clustering.json",
+    "polygon_6_clustering.json"
+  ]
+}
